@@ -1,0 +1,319 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container-header{
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+.container-header h1{
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    margin:0;
+}
+
+.container-header h3{
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.container-main .container-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ main .container-first .picture{
+     width: 200px;
+     height: 200px;
+     margin: 15px;
+ }
+
+ main .container-first .picture img{
+     width: 100%;
+ }
+
+ main .container-first section .list-left div{
+     width: 250px;
+     height: 45px;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     margin: 15px 0;
+ }
+
+ main .container-first section .list-right div{
+     width: 250px;
+     height: 45px;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     margin: 15px 0;
+ }
+
+ main .container-first section div a{
+     color: #11a;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ main .container-first section div p{
+     margin: 0;
+     font-size: 12px;
+     color: #888;
+
+ }
+
+ main .container-first section #en{
+    left: 100px;
+ }
+
+ main .container-first section #esp{
+     left: -160px;
+ } 
+
+ main .container-first section #chino{
+     left: 70px;
+ }
+
+ main .container-first section #alem{
+     left: 30px;   
+ }
+
+ main .container-first section #jap{
+     left: 70px;
+ }
+
+ main .container-first section #por{
+     left: 100px;
+ }
+
+ main .container-first section #ruso{
+     left: -110px;
+ }
+
+ main .container-first section #fra{
+     left: -80px;
+ }
+
+ main .container-first section #ita{
+     left: -110px;
+ }
+
+ main .container-first section #pol{
+     left: -160px;
+ }
+
+
+ main .container-input {
+     text-align: center;
+ }
+
+ main .container-input .div-input{
+     border: #999 solid 1px;
+     width: 500px;
+     height: 44px;
+     margin: 0 auto;
+     border-radius: 5px;
+ }
+
+ main .container-input input{
+     width: 70%;
+     height: 90%;
+     position: relative;
+     top: -11px;
+     font-size: 1.1rem;
+     border: none;
+
+ }
+
+ main .container-input #idioma{
+     border: none;
+     width: 10%;
+     height: 100%;
+     position: relative;
+     top: -13px;
+     cursor: pointer;
+ }
+
+ main .container-input button{
+     background-color: #07f;
+     width: 17.6%;
+     border: none;
+     height: 100%;
+ }
+
+ main .container-input button img{
+     width: 50%;
+ }
+
+main .container-input .read div{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 300px;
+    height: 25px;
+    border: #ccc solid 1px;
+    display: flex;
+    background: #fff;
+    padding: 5px;
+}
+
+ main .container-input .read img{
+     width: 10%;
+     color: #00f;
+ }
+
+ main .container-input .read #wiki{
+     width: 90%;
+     border: none;
+     background: #fff;
+     color: #00f;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ footer{
+     margin-top: 30px;
+     display: flex;
+     border-top: #ccc solid 1px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #888;
+ }
+ footer .footer-left{
+     width: 40%;
+ }
+
+footer .footer-left .cuadro-1{
+    display: flex;
+    padding: 50px;
+}
+
+footer .footer-left .cuadro-1 .container-icon{
+    width: 20%;
+}
+
+footer .footer-left .cuadro-1 .container-icon img{
+    width: 70%;
+    position: relative;
+    top: -10px;
+    left: 10px;
+
+}
+
+footer .footer-left .description{
+    width: 80%;
+    padding: 0 50px 0 0;
+}
+
+footer .footer-left a{
+    position: relative;
+    right: -115px;
+    top: -45px;
+    color: #00f;
+    text-decoration: none;
+
+} 
+
+footer .footer-left .cuadro-2{
+    display: flex;
+    background: #eee;
+    margin: 50px;
+    padding: 10px;
+}
+
+footer .footer-left .cuadro-2 .iconwiki{
+    width: 20%;
+}
+
+footer .footer-left .cuadro-2 .download{
+    width: 80%;
+}
+
+footer .footer-left .cuadro-2 .download img{
+    width: 50%;
+}
+
+footer .footer-left .cuadro-2 .iconwiki .iconmod{
+    width: 70%;
+    position: relative;
+    right: -5px;
+}
+
+footer .footer-left .cuadro-2 .descargas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-left .cuadro-2 .descargas img{
+    padding: 5px;
+}
+
+ footer .footer-right{
+     width: 60%;
+ }
+
+footer .footer-right{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 30px;
+}
+
+footer .footer-right .cuadrosinfo{
+    margin:  10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+}
+
+footer .footer-right .cuadrosinfo .cuadrosinfor-icon{
+    width: 30%;
+}
+
+footer .footer-right .cuadrosinfo p{
+    width: 70%;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+footer .footer-right .cuadrosinfo p a{
+    text-decoration: none;
+    color: #00f;
+}
+
+footer .footer-right .cuadrosinfo .cuadrosinfor-icon img{
+    width: 100%;
+    margin: 5px;
+}
+
+footer .footer-right .cuadrosinfo:hover{
+    cursor:pointer;
+    background-color: #eee;
+}
+
+
+body .footer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border-top: #ccc solid 1px;
+    padding: 10px;
+}
+
+body .footer-2 a{
+    text-decoration: none;
+    color: #00f;
+}
+body .footer-2 li{
+    margin: 10px;
+}
